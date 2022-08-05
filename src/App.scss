@@ -1,0 +1,41 @@
+.app {
+  height:100%;
+}
+
+.editors {
+  display: flex;
+}
+.buttons {
+  button {
+    padding: 5px 20px;
+    font-size: 17px;
+    background-color: #055ff1;
+    color: white;
+    font-weight: 400;
+    border: 0;
+    margin: 20px 13px;
+    cursor: pointer;
+  }
+}
+
+.output {
+  background-color: black;
+  color: white;
+  height:28.5vh;
+  padding: 5px 14px;
+  font: 1.2rem Inconsolata, monospace;
+  p {
+    margin: 0;
+  }
+}
+
+.loader {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  background-color: #ffffff87;
+  width: 40vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
